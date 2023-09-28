@@ -58,6 +58,11 @@ nav > a:hover {
 
 
 main {
+    display: flex; /*adicionado o conceito de flex-box no main */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
     min-width: 300px;
     max-width: 1000px;
     padding: 0px 10px 10px 10px;
@@ -67,12 +72,8 @@ main {
 }
 
 
-#sobre {
-    display: inline-block;
-}
-
 #sobre > h2 {
-    margin: 5px 5px 5px 5px;
+    align-items: flex-start;
     height: 25px;
     padding: 10px;
     background-image: linear-gradient(to right, var(--cor0), transparent);
@@ -80,16 +81,42 @@ main {
 }
 
 #sobre > p {
-    text-align: justify;
-    margin: 5px 5px 5px 5px;
-    height: 104px;
+    flex-basis: auto;
+    margin: 10px;
+    padding: 2px;
 }
 
-.imagens {
+#html > h2 {
     margin: 10px;
 }
 
+
+.imagens {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .imagens > div#android {
+    margin: 15px 20px 15px 5px;
+}
+    
+.imagens > div#cordel {
+    margin: 15px 20px 15px 15px;
+}
+    
+.imagens > div#login {
+    margin: 15px 20px 15px 15px;;
+}
+    
+.imagens > div#analos {
+    margin: 15px 20px 15px 5px;
+}
+
+
+
+/* .imagens > div#android {
     width: 200px;
     height: 154px;
     padding: 2px;
@@ -127,7 +154,7 @@ main {
     display: inline-block;
     border: solid black 1px;
     border-radius: 3px;
-}
+} */
 
 .imagens > div > a:hover {
     background-color: rgba(0, 0, 0, 0.575);
