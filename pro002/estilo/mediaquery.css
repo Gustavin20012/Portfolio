@@ -12,6 +12,10 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 500px) and (max-width: 550px) {
     /*CONFIGURAÇÕES PARA CELULAR */
 
+.imagens > div {
+    margin: 5px;
+}
+
 
 /* .imagens {
     text-align: center;
