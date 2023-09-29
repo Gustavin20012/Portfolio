@@ -46,6 +46,7 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 550px) and (max-width: 760px) {
     /*CONFIGURAÇÕES PARA TABLET */
 
+
 /* .imagens {
     text-align: center;
 }
@@ -74,6 +75,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width: 761px) and (max-width: 870px) {
     /*CONFIGURAÇÕES PARA DESKTOP*/
+
 
 
 /* .imagens > div#android {
